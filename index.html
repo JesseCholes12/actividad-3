@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware de una Computadora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main-content {
+            float: left;
+            width: 70%;
+            padding: 20px;
+        }
+        .sidebar {
+            float: right;
+            width: 25%;
+            padding: 20px;
+            background: #e2e2e2;
+        }
+        footer {
+            clear: both;
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .blog-post {
+            margin-bottom: 20px;
+        }
+        .blog-post h2 {
+            margin-bottom: 10px;
+        }
+        .blog-post p {
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hardware de una Computadora</h1>
+            <nav>
+                <ul>
+                    <li><a href="#introduction">Introducción</a></li>
+                    <li><a href="#types">Circuitos</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="main-content">
+            <section id="introduction">
+                <h2>Introducción</h2>
+                <p>Los circuitos en el hardware de una computadora son fundamentales para su funcionamiento. Estos circuitos permiten la comunicación y el procesamiento de datos en el sistema.</p>
+            </section>
+
+            <section id="types">
+                <h2>Tipos de Circuitos Discutidos en Clases</h2>
+                <article>
+                    <h3>1. Circuito de Baterías</h3>
+                    <p>Circuito el cual se conforma de dos baterías conectadas a dos cables, uno conectado al positivo y el otro al lado negativo representados como "A" y "B", los cuales representan unos switches que abren y cierran el paso de electricidad.</p>
+                </article>
+                <article>
+                    <h3>2. Circuito en el Programa "DigitalLogic"</h3>
+                    <p>Este circuito simulado nos habla de las compuertas llamadas "AND", "NOT", "OR", "XOR".</p>
+                </article>
+                <article>
+                    <h3></h3>
+                    <p></p>
+                </article>
+            </section>
+        </div>
+
+        <aside class="sidebar" id="blog">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h2>Entradas Recientes</h2>
+                <article>
+                    <h3>Compuertas Lógicas</h3>
+                    <p>En esta entrada, las puertas lógicas son fundamentales en el diseño de circuitos digitales y sistemas computacionales, permitiendo la realización de operaciones lógicas básicas esenciales para el procesamiento de datos.</p>
+                </article>
+                <article>
+                    <h3>Programa "Digital Logic Sim"</h3>
+                    <p>Digital Logic SIM es una herramienta de simulación de circuitos lógicos digitales que permite a los usuarios diseñar, analizar y probar circuitos digitales en un entorno virtual. Ideal para estudiantes y profesionales, el programa facilita la visualización y la comprensión del funcionamiento de puertas lógicas y circuitos combinatorios y secuenciales.</p>
+                </article>
+            </div>
+        </aside>
+
+        <aside class="sidebar" id="blog">
+            <h2>Blog Personal</h2>
+            <div class="blog-post">
+                <h2>Mi Primera Página Web</h2>
+                <article>
+                    <h3>¿Quién soy?</h3>
+                    <p>Soy Randol Choles, estudiante del programa de Ingeniería de Software y Datos. En este trabajo, dejo como demostrado lo discutido en clases, lo cual me sirve de mucha ayuda y experiencia en esta área.</p>
+                </article>
+                <article>
+                    <h3>Guía Completa para Crear un Repositorio Local en Git y Conectarlo a GitHub</h3>
+                    <p>Git es una herramienta esencial para el control de versiones, permitiendo a los desarrolladores gestionar y colaborar en proyectos de manera eficiente. En esta entrada, aprenderemos cómo crear un repositorio local, trabajar con ramas y conectarlo a un repositorio remoto en GitHub.</p>
+                    <h4>Crear un Repositorio Local</h4>
+                    <p>Para crear un nuevo repositorio local, sigue estos pasos:</p>
+                    <ol>
+                        <li><strong>Instalar Git:</strong> Si aún no tienes Git instalado, descárgalo e instálalo desde <a href="https://git-scm.com">git-scm.com</a>.</li>
+                        <li><strong>Inicializar el Repositorio:</strong> Abre tu terminal o línea de comandos, navega hasta el directorio donde deseas crear tu proyecto, y usa:
+                            <pre><code>git init nombre-del-repositorio</code></pre>
+                        </li>
+                        <li><strong>Añadir Archivos:</strong> Agrega archivos a tu nuevo repositorio:
+                            <pre><code>touch archivo1.txt archivo2.txt</code></pre>
+                            Luego, añade los archivos al índice de Git:
+                            <pre><code>git add .</code></pre>
+                        </li>
+                        <li><strong>Realizar un Commit:</strong> Ahora que has añadido los archivos, realiza tu primer commit:
+                            <pre><code>git commit -m "Primer commit"</code></pre>
+                        </li>
+                    </ol>
+                    <h4>Crear Ramas (Branches) en Git</h4>
+                    <p>Las ramas son fundamentales en Git. Para crear una nueva rama:</p>
+                    <pre><code>git branch nombre-de-la-rama</code></pre>
+                    <p>Cambiar a la nueva rama:</p>
+                    <pre><code>git checkout nombre-de-la-rama</code></pre>
+                    <p>Ejemplo práctico: Si trabajas en una característica llamada "autenticación", puedes crear una rama así:</p>
+                    <pre><code>git checkout -b autenticacion</code></pre>
+                    <h4>Combinar Ramas (Merge)</h4>
+                    <p>Una vez que hayas terminado de trabajar en tu rama, cambia a la rama principal y combina:</p>
+                    <pre><code>git checkout main</code></pre>
+                    <pre><code>git merge autenticacion</code></pre>
+                    <h4>Conectar tu Repositorio Local a GitHub</h4>
+                    <p>Para conectar tu repositorio local a GitHub:</p>
+                    <ol>
+                        <li>Crea un repositorio en GitHub y copia la URL.</li>
+                        <li>En tu terminal, añade el repositorio remoto:
+                            <pre><code>git remote add origin https://github.com/tu-usuario/nombre-del-repositorio.git</code></pre>
+                        </li>
+                        <li>Sube tus cambios:
+                            <pre><code>git push -u origin main</code></pre>
+                        </li>
+                    </ol>
+                    <p></p>
+                </article>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Randol Choles. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
